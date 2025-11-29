@@ -1,0 +1,14 @@
+# Core Framework
+fastapi==0.104.1           # Modern Python web framework
+uvicorn[standard]==0.24.0  # ASGI server for FastAPI
+
+# Database
+sqlalchemy==2.0.23         # SQL toolkit and ORM
+psycopg2-binary==2.9.9     # PostgreSQL adapter
+
+# WebSocket Support
+websockets==12.0           # WebSocket protocol implementation
+
+# Utilities
+python-dotenv==1.0.0       # Environment variable management
+pydantic==2.5.0            # Data validation
